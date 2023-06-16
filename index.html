@@ -28,7 +28,7 @@
       z-index: 2;
     }
 
-    .form-signin input[type="Message"] {
+    .form-signin textarea {
       margin-bottom: -1px;
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 0;
@@ -45,14 +45,15 @@
     <form id="caseForm">
       <h1 class="h3 mb-3 fw-normal">Paste the case below</h1>
       <div class="form-floating">
-        <textarea class="form-control" id="floatingInput" rows="4" placeholder="The case"></textarea>
-        <label for="floatingInput">Paste here</label>
+        <textarea class="form-control" id="caseInput" rows="4" placeholder="The case"></textarea>
+        <label for="caseInput">Paste here</label>
       </div>
       <button class="btn btn-primary w-100 py-2" type="submit">Summarize</button>
       <p class="mt-5 mb-3 text-body-secondary">&copy; 2023 | Big Time Media</p>
     </form>
   </main>
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
+
